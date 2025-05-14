@@ -1,0 +1,32 @@
+.footer {
+  background-color: #f1f1f1;
+  font-family: "Rubik", sans-serif;
+  .foot {
+    .fottext {
+      img {
+        width: 149px;
+      }
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 187%;
+        color: #4f5665;
+        .socials {
+          display: flex;
+          align-items: center;
+          box-shadow: 0px 60px 60px rgba(34, 28, 28, 0.171);
+        }
+      }
+      p.ls {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 187%;
+        color: #afb5c0;
+      }
+    }
+
+  }
+}

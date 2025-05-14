@@ -1,0 +1,46 @@
+.header {
+  img {
+    width: 148px;
+  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  nav {
+    ul {
+      display: flex;
+      gap: 40px;
+      list-style-type: none;
+    }
+    a {
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 16px;
+      color: #4f5665;
+      font-family: "Rubik", sans-serif;
+    }
+  }
+  .reg {
+    display: flex;
+    align-items: center;
+    a {
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 16px;
+      color: #0b132a;
+      font-family: "Rubik", sans-serif;
+    }
+    button {
+      border: 1px solid #f53855;
+      border-radius: 50px;
+      width: 150px;
+      height: 45px;
+      font-weight: 500;
+      font-size: 16px;
+      color: #f53855;
+      background-color: #fff;
+      font-family: "Rubik", sans-serif;
+    }
+    gap: 30px;
+  }
+}
